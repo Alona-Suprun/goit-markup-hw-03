@@ -140,7 +140,7 @@ p {
   display: inline-block;
   margin-top: 30px;
   padding: 10px 32px;
-  min-width: 200;
+  min-width: 200px;
   border: 0px solid transparent;
   border-radius: 4px;
 
@@ -163,7 +163,7 @@ p {
   display: flex;
 }
 .advantages .item {
-  width: calc((100%-90) / 4);
+  width: calc((100% - 90px) / 4);
   margin-right: 30px;
 }
 .advantages .item:nth-child(4n) {
@@ -196,7 +196,7 @@ p {
   margin-top: 50px;
 }
 .work-example .item {
-  width: calc((100%-60) / 3);
+  width: calc((100% - 60px) / 3);
   margin-right: 30px;
 }
 .work-example .item:nth-child(3n) {
@@ -214,7 +214,7 @@ p {
   margin-top: 50px;
 }
 .team .human {
-  width: calc((100%-90) / 4);
+  width: calc((100% - 90px) / 4);
   margin-right: 30px;
 }
 .team .human:nth-child(4n) {
@@ -297,7 +297,7 @@ p {
   margin-top: 50px;
 }
 .card .item {
-  width: (calc(100%-60px) / 3);
+  width: calc((100% - 66px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
@@ -307,6 +307,9 @@ p {
 }
 .card .item:nth-last-child(-n + 3) {
   margin-bottom: 0;
+}
+.card-image {
+  display: block;
 }
 .cards-title {
   margin-top: 20px;
